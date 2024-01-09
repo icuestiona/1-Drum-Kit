@@ -4,10 +4,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("./Audience2.jpg"); /* Replace with the actual path to your background image */
+  background-image: url("./Audience2.jpg");
   background-size: cover;
   background-position: center;
-  font-family: "Arial", sans-serif; /* Change the font-family if needed */
+  font-family: "Arial", sans-serif;
+  font-size: 0.7rem;
 }
 
 .keys {
@@ -25,29 +26,22 @@ body {
   justify-content: center;
   width: 80px;
   height: 80px;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.7
-  ); /* Adjust the background color and opacity as needed */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the box shadow as needed */
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.1s ease;
-}
-
-.key:hover {
-  transform: scale(1.1);
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: blueviolet;
+  border-color: #2e257e;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
 kbd {
-  font-size: 1.5rem;
+  display: block;
+  font-size: 3rem;
 }
 
 .sound {
