@@ -27,7 +27,7 @@ body {
   width: 80px;
   height: 80px;
   background-color: rgba(255, 255, 255, 0.7);
-  border: 0.4rem solid black;
+  border: 0.4rem solid #717172;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.1s ease;
@@ -35,7 +35,7 @@ body {
 
 .playing {
   transform: scale(1.1);
-  border-color: #2e257e;
+  border-color: #0bed87;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
